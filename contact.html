@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"> </script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css.css">
+    <title>Contact</title>
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark primary-color">
+
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="#">
+        <img class="img1" src="C:\Users\abd rahmen\Desktop\GoMyCode1\1\res\section2GMCLogo.png">
+            
+        </a>
+      
+        <!-- Collapse button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+          aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="basicExampleNav">
+      
+          <!-- Links -->
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="file:///C:/Users/abd%20rahmen/Desktop/GoMyCode1/1/index.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="file:///C:/Users/abd%20rahmen/Desktop/GoMyCode1/1/courses.html">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="file:///C:/Users/abd%20rahmen/Desktop/GoMyCode1/1/contact.html">Contact</a>
+            </li>
+          </ul>
+          <!-- Links -->
+      
+          <form class="form-inline">
+            <div class="md-form my-0">
+              <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            </div>
+          </form>
+        </div>
+        <!-- Collapsible content -->
+      
+      </nav>
+      <!--/.Navbar-->
+    <h1>Contact</h1>
+   <div class="contact">
+     <form id="submitf">
+        <label style="color: white" >name</label><input placeholder="your name" class="form-group" id="name" type="text">
+    <br>
+    <label style="color: white">track</label>
+    <select class="form-group" name=""  id="track">
+        <option value="web">web</option>
+        <option value="al">al</option>
+        <option value="game">game</option>
+    </select>
+    <br>
+    <label style="color: white" >email address</label><input placeholder="your email" id="email" class="form-group" type="text">
+    <br>
+    <label style="color: white" >phone number</label><input placeholder="23232323" id="number" class="form-group" type="number">
+    <br>
+    <br>
+    <button class="good" type="submit" id="submit">submit</button>
+    <br>
+  </form>
+</div>
+</body>
+<script src="https://www.gstatic.com/firebasejs/6.5.0/firebase.js"></script>
+<script src="js/main.js"></script>
+
+</html>

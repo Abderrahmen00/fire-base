@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"> </script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+    <title>Courses</title>
+</head>
+
+<body>
+
+    
+    <!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark primary-color">
+
+    <!-- Navbar brand -->
+    <a class="navbar-brand" href="#">
+    <img class="img1" src="C:\Users\abd rahmen\Desktop\GoMyCode1\1\res\section2GMCLogo.png">
+        
+    </a>
+  
+    <!-- Collapse button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+      aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="basicExampleNav">
+  
+      <!-- Links -->
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="file:///C:/Users/abd%20rahmen/Desktop/GoMyCode1/1/index.html">Home
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///C:/Users/abd%20rahmen/Desktop/GoMyCode1/1/courses.html">Courses</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///C:/Users/abd%20rahmen/Desktop/GoMyCode1/1/contact.html">Contact</a>
+        </li>
+  
+      </ul>
+      <!-- Links -->
+  
+      <form class="form-inline">
+        <div class="md-form my-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        </div>
+      </form>
+    </div>
+    <!-- Collapsible content -->
+  
+  </nav>
+  <!--/.Navbar-->
+    
+    <h4>Courses</h4>
+    <div id="photos">
+        <div class="im">
+            <img class="ok"
+                src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel1.png"
+                alt="">
+            <a href="#ex1" rel="modal:open"> <button>view more</button> </a>
+        </div>
+        <div class="im">
+
+            <img class="ok"
+                src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel.png">
+                <a href="#ex1" rel="modal:open"> <button>view more</button> </a>
+        </div>
+        <div class="im">
+            <img class="ok"
+                src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel2.png">
+                <a href="#ex1" rel="modal:open"> <button>view more</button> </a>
+        </div>
+        <div class="im">
+            <img class="ok"
+                src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel3.png">
+                <a href="#ex1" rel="modal:open"> <button>view more</button> </a>
+        </div>
+        <div class="im">
+            <img class="ok"
+                src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel4.png">
+                <a href="#ex1" rel="modal:open"> <button>view more</button> </a>
+        </div>
+        <div class="im">
+            <img class="ok"
+                src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel5.png">
+                <a href="#ex1" rel="modal:open"> <button>view more</button> </a>
+        </div>
+        <div class="im">
+            <img class="ok"
+                src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel6.png">
+                <a href="#ex1" rel="modal:open"> <button>view more</button> </a>
+        </div>
+        <div class="im">
+            <img class="ok"
+                src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel7.png">
+                <a href="#ex1" rel="modal:open"> <button>view more</button> </a>
+        </div class="im">
+        <div class="im">
+            <img class="ok"
+                src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel8.png">
+                <a href="#ex1" rel="modal:open"> <button>view more</button> </a>
+        </div>
+    </div>
+    <h2 style="color: white">Feedback</h2>
+    <br>
+    <div class="feed">
+        <button id="button">B</button>
+        <button id="it">I</button>
+        <button id="un">Underline</button>
+        <select id="sel">
+            <option id="ach" value="20px">20px</option>
+            <option id="ich" value="30px">30px</option>
+            <option id="och" value="40px">40px</option>
+        </select>
+        <select id="fml">
+            <option value="Arial">Arial</option>
+            <option value="Verdana">Verdana</option>
+            <option value="Geneva">Geneva</option>
+        </select>
+        <br>
+        <br>
+        <textarea name="" id="txt" cols="30" rows="10"></textarea>
+    </div>
+    <div id="ex1" class="modal">
+        <p>This is GoMyCode Track. 
+            Each track has its own goal. 
+            By adopting this track, you chose your own goal.</p>
+        <a href="#" rel="modal:close">Close</a>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-app.js"></script>
+</body>
+<script src="js/main.js"></script>
+
+</html>
